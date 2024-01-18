@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background-color: #333;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 45px;
+  position: relative;
+  
+}
+
+nav a {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  font-size: 24px;
+  margin: 7px;
+  color: white;
+  background-color: rgb(88, 88, 88);
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: Montserrat, serif;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
+nav a:active {
+  background-color: rgb(95, 95, 95);
+}
+
+#heroImage {
+  position: relative;
+  transform: translate(-50%, -50%);
+  height: 800px;
+  width: 1800px;
+  border-radius: 50px;
+  left: 50%;
+  top: 400px
+}
+
+.heroText {
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.815);
+  border-radius: 25px;
+  text-align: center;
+  color: rgb(19, 32, 107);
+  font-family: Montserrat, serif;
+  margin: 20px;
+  p {
+    margin: 25px;
+  }
+}
+
+footer {
+  text-align: center;
+  margin: 10px;
+}
