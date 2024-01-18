@@ -9,8 +9,9 @@ body {
 
 nav {
   height: 45px;
-  position: relative;
-  
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 nav a {
@@ -41,7 +42,7 @@ nav a:active {
   width: 1800px;
   border-radius: 50px;
   left: 50%;
-  top: 400px
+  top: 450px
 }
 
 .heroText {
@@ -58,6 +59,11 @@ nav a:active {
   p {
     margin: 25px;
   }
+}
+
+.form {
+  margin-top: 70px;
+  margin-left: 20px;
 }
 
 footer {
