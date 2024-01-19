@@ -6,10 +6,11 @@ body {
 }
 
 nav {
-  height: 45px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  min-width: 550px;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -17,7 +18,7 @@ nav a {
   width: 150px;
   text-align: center;
   font-size: 24px;
-  margin: 7px;
+  margin: 10px;
   color: white;
   background-color: rgb(88, 88, 88);
   border-radius: 10px;
